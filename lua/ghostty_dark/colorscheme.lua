@@ -79,13 +79,27 @@ colorscheme.syntaxKeyword = '#bc99d4'            -- palette 13
 
 
 colorscheme.linkText = '#83a5d6'                 -- close to palette 12
+
+
+
+-- color for strings like inside of print--
 colorscheme.stringText = '#e9c880'               -- (keep as is, or map to palette 3 or 11 if needed)
-colorscheme.warningEmphasis = '#e9c880'          -- palette 3
+
+--
+-- curlybraces? --
+colorscheme.warningEmphasis = '#bc99d4'          -- palette 3
+--
+
+
 colorscheme.successText = '#22863a'              -- not in palette, but keep for meaning
 colorscheme.errorText = '#bf6b69'                -- palette 1
 colorscheme.specialKeyword = '#800080'           -- not in palette, optional custom
 colorscheme.commentText = '#666666'              -- palette 8
+
+-- {} colorscheme ? --
 colorscheme.syntaxOperator = '#bc99d4'           -- palette 7
+
+--
 colorscheme.foregroundEmphasis = '#ffffff'       -- foreground
 colorscheme.terminalGray = '#666666'             -- palette 8
 
