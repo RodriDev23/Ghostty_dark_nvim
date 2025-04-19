@@ -57,7 +57,13 @@ colorscheme.focusedBorder = '#363a43'            -- cursor-text
 colorscheme.emphasizedBorder = '#292c33'         -- background
 
 colorscheme.syntaxError = '#c55757'              -- palette 9
-colorscheme.syntaxFunction = '#88a1bb'           -- palette 4
+
+
+-- functions color
+colorscheme.syntaxFunction = '#95bdb7'           -- palette 4
+--
+
+
 colorscheme.warningText = '#e1c65e'              -- palette 11
 colorscheme.syntaxKeyword = '#bc99d4'            -- palette 13
 colorscheme.linkText = '#83a5d6'                 -- close to palette 12
