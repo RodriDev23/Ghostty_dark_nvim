@@ -85,7 +85,7 @@ colorscheme.successText = '#22863a'              -- not in palette, but keep for
 colorscheme.errorText = '#bf6b69'                -- palette 1
 colorscheme.specialKeyword = '#800080'           -- not in palette, optional custom
 colorscheme.commentText = '#666666'              -- palette 8
-colorscheme.syntaxOperator = '#c5c8c6'           -- palette 7
+colorscheme.syntaxOperator = '#bc99d4'           -- palette 7
 colorscheme.foregroundEmphasis = '#ffffff'       -- foreground
 colorscheme.terminalGray = '#666666'             -- palette 8
 
