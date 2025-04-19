@@ -1,1 +1,2 @@
-require("ghostty_dark").colorscheme()
+vim.cmd.colorscheme("ghostty_dark")
+
