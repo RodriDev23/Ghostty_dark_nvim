@@ -43,7 +43,13 @@ colorscheme.popupBackground = '#1d1f21'          -- palette 0
 colorscheme.floatingWindowBackground = '#1d1f21' -- palette 0
 colorscheme.menuOptionBackground = '#1d1f21'     -- palette 0
 
+
+
+-- variables color --
 colorscheme.mainText = '#c5c8c6'                 -- palette 7
+--
+
+
 colorscheme.emphasisText = '#ffffff'             -- foreground
 colorscheme.commandText = '#ffffff'              -- foreground
 colorscheme.inactiveText = '#666666'             -- palette 8
@@ -65,7 +71,13 @@ colorscheme.syntaxFunction = '#95bdb7'           -- palette 4
 
 
 colorscheme.warningText = '#e1c65e'              -- palette 11
+
+
+-- kewords --
 colorscheme.syntaxKeyword = '#bc99d4'            -- palette 13
+--
+
+
 colorscheme.linkText = '#83a5d6'                 -- close to palette 12
 colorscheme.stringText = '#e9c880'               -- (keep as is, or map to palette 3 or 11 if needed)
 colorscheme.warningEmphasis = '#e9c880'          -- palette 3
