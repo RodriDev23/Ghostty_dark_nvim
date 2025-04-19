@@ -1,2 +1,2 @@
-require("ghostty_dark").load()
+require("ghostty_dark").colorscheme()
 
