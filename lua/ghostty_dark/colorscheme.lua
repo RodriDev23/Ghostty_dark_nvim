@@ -1,8 +1,8 @@
 local config = require 'ghostty_dark.config'
 
 local colorscheme = {
-    standardWhite = '#c5c8c6',
-    standardBlack = '#1d1f21',
+    standardWhite = '#ffffff',
+    standardBlack = '#292c33',
 }
 
 
