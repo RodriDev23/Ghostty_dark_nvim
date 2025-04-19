@@ -1,2 +1,2 @@
-require("my-theme").colorscheme()
+require("ghostty_dark").colorscheme()
 
