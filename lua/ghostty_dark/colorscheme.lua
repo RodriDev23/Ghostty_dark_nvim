@@ -46,61 +46,72 @@ colorscheme.menuOptionBackground = '#1d1f21'     -- palette 0
 
 
 -- variables color --
-colorscheme.mainText = '#c5c8c6'                 -- palette 7
+colorscheme.mainText = '#c5c8c6' -- palette 7
 --
 
 
-colorscheme.emphasisText = '#ffffff'             -- foreground
-colorscheme.commandText = '#ffffff'              -- foreground
-colorscheme.inactiveText = '#666666'             -- palette 8
-colorscheme.disabledText = '#666666'             -- palette 8
-colorscheme.lineNumberText = '#666666'           -- palette 8
-colorscheme.selectedText = '#eaeaea'             -- palette 15
-colorscheme.inactiveSelectionText = '#ffffff'    -- selection-background
+colorscheme.emphasisText = '#ffffff'          -- foreground
+colorscheme.commandText = '#ffffff'           -- foreground
+colorscheme.inactiveText = '#666666'          -- palette 8
+colorscheme.disabledText = '#666666'          -- palette 8
+colorscheme.lineNumberText = '#666666'        -- palette 8
+colorscheme.selectedText = '#eaeaea'          -- palette 15
+colorscheme.inactiveSelectionText = '#ffffff' -- selection-background
 
-colorscheme.windowBorder = '#1d1f21'             -- palette 0
-colorscheme.focusedBorder = '#363a43'            -- cursor-text
-colorscheme.emphasizedBorder = '#292c33'         -- background
+colorscheme.windowBorder = '#1d1f21'          -- palette 0
+colorscheme.focusedBorder = '#363a43'         -- cursor-text
+colorscheme.emphasizedBorder = '#292c33'      -- background
 
-colorscheme.syntaxError = '#c55757'              -- palette 9
+colorscheme.syntaxError = '#c55757'           -- palette 9
 
 
 -- functions color
-colorscheme.syntaxFunction = '#95bdb7'           -- palette 4
+-- was: '#95bdb7' (too vibrant teal)
+colorscheme.syntaxFunction = '#83beb1' -- palette 14
 --
 
 
-colorscheme.warningText = '#e1c65e'              -- palette 11
+colorscheme.warningText = '#e1c65e' -- palette 11
 
 
 -- kewords --
-colorscheme.syntaxKeyword = '#bc99d4'            -- palette 13
+-- was: '#bc99d4' (bright purple)
+colorscheme.syntaxKeyword = '#ad95b8' -- palette 5 (softer alternative)
+
 --
 
 
-colorscheme.linkText = '#83a5d6'                 -- close to palette 12
+colorscheme.linkText = '#83a5d6' -- close to palette 12
 
 
 
 -- color for strings like inside of print--
-colorscheme.stringText = '#e9c880'               -- (keep as is, or map to palette 3 or 11 if needed)
-
---
--- curlybraces? --
-colorscheme.warningEmphasis = '#bc99d4'          -- palette 3
+-- was: '#e9c880' (a bit too yellow)
+colorscheme.stringText = '#e1c65e' -- palette 11 (less harsh, still distinct)
 --
 
 
-colorscheme.successText = '#22863a'              -- not in palette, but keep for meaning
-colorscheme.errorText = '#bf6b69'                -- palette 1
-colorscheme.specialKeyword = '#800080'           -- not in palette, optional custom
-colorscheme.commentText = '#666666'              -- palette 8
-
--- {} colorscheme ? --
-colorscheme.syntaxOperator = '#bc99d4'           -- palette 7
-
+-- curlybraces color {} --
+colorscheme.warningEmphasis = '#bc99d4'
 --
-colorscheme.foregroundEmphasis = '#ffffff'       -- foreground
-colorscheme.terminalGray = '#666666'             -- palette 8
+
+-- was: '#22863a' (not from palette)
+colorscheme.successText = '#bcc95f'    -- palette 10 (fitting olive green)
+
+colorscheme.errorText = '#bf6b69'      -- palette 1
+-- was: '#800080' (harsh pure purple)
+colorscheme.specialKeyword = '#ad95b8' -- same as above, unify purples
+
+colorscheme.commentText = '#666666'    -- palette 8
+
+
+
+-- was: '#bc99d4' again
+colorscheme.syntaxOperator = '#88a1bb' -- palette 4 (light steel blue)
+
+
+
+colorscheme.foregroundEmphasis = '#ffffff' -- foreground
+colorscheme.terminalGray = '#666666'       -- palette 8
 
 return colorscheme
