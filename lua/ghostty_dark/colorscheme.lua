@@ -45,8 +45,8 @@ colorscheme.menuOptionBackground = '#1d1f21'     -- palette 0
 
 
 
--- variables color --
-colorscheme.mainText = '#c5c8c6' -- palette 7
+-- variables that are passed as arguments --
+colorscheme.mainText = '#ffffff'-- palette 7
 --
 
 
@@ -55,6 +55,8 @@ colorscheme.commandText = '#ffffff'           -- foreground
 colorscheme.inactiveText = '#666666'          -- palette 8
 colorscheme.disabledText = '#666666'          -- palette 8
 colorscheme.lineNumberText = '#666666'        -- palette 8
+
+
 colorscheme.selectedText = '#eaeaea'          -- palette 15
 colorscheme.inactiveSelectionText = '#ffffff' -- selection-background
 
@@ -74,7 +76,6 @@ colorscheme.warningText = '#e1c65e' -- palette 11
 
 
 -- kewords --
--- was: '#bc99d4' (bright purple)
 colorscheme.syntaxKeyword = '#ad95b8' -- palette 5 (softer alternative)
 
 --
@@ -85,7 +86,6 @@ colorscheme.linkText = '#83a5d6' -- close to palette 12
 
 
 -- color for strings like inside of print--
--- was: '#e9c880' (a bit too yellow)
 colorscheme.stringText = '#e1c65e' -- palette 11 (less harsh, still distinct)
 --
 
@@ -97,9 +97,16 @@ colorscheme.warningEmphasis = '#bc99d4'
 -- was: '#22863a' (not from palette)
 colorscheme.successText = '#bcc95f'    -- palette 10 (fitting olive green)
 
+
+
+
 colorscheme.errorText = '#bf6b69'      -- palette 1
+
+
 -- was: '#800080' (harsh pure purple)
 colorscheme.specialKeyword = '#ad95b8' -- same as above, unify purples
+
+
 
 colorscheme.commentText = '#666666'    -- palette 8
 
