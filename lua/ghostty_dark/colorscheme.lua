@@ -94,7 +94,7 @@ colorscheme.stringText = '#e1c65e' -- palette 11 (less harsh, still distinct)
 
 
 -- curlybraces color {} --
-colorscheme.warningEmphasis = '#a0a0a0'
+colorscheme.warningEmphasis = '#6bb5a'
 -------------------------------------------
 
 -- was: '#22863a' (not from palette)
