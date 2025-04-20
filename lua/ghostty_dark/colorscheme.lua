@@ -66,8 +66,7 @@ colorscheme.syntaxError = '#c55757'           -- palette 9
 
 
 -- functions color
--- was: '#95bdb7' (too vibrant teal)
-colorscheme.syntaxFunction = '#83beb1' -- palette 14
+colorscheme.syntaxFunction = '#a3a7a8' --
 --
 
 
