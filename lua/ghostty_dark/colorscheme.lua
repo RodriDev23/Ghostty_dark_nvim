@@ -64,8 +64,12 @@ colorscheme.windowBorder = '#1d1f21'          -- palette 0
 colorscheme.focusedBorder = '#363a43'         -- cursor-text
 colorscheme.emphasizedBorder = '#292c33'      -- background
 
-colorscheme.syntaxError = '#c55757'           -- palette 9
 
+
+
+--- I think this is the color for variables definition like let fn and more
+colorscheme.syntaxError = '#888888'           -- palette 9
+-------------testing---------------------------------------------------
 
 -- functions color when we are using it example println
 colorscheme.syntaxFunction = '#83beb1' -- palette 14
@@ -99,8 +103,7 @@ colorscheme.successText = '#bcc95f'    -- palette 10 (fitting olive green)
 
 
 
---------testing this if this are the variables color like fn let use ---
-colorscheme.errorText = '#888888'      -- palette 1
+colorscheme.errorText = '#bf6b69'      -- palette 1
 ------------------------------------------
 
 -- was: '#800080' (harsh pure purple)
