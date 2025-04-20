@@ -67,8 +67,8 @@ colorscheme.emphasizedBorder = '#292c33'      -- background
 
 
 
---- I think this is the color for variables definition like let fn and more
-colorscheme.syntaxError = '#888888'           -- palette 9
+--- color for variables definition like let fn and more
+colorscheme.syntaxError = '#e1c65e'           -- palette 9
 -------------testing---------------------------------------------------
 
 -- functions color when we are using it example println
