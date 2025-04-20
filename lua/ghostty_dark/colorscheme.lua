@@ -69,11 +69,11 @@ colorscheme.emphasizedBorder = '#292c33'      -- background
 
 --- color for variables definition like let fn and more
 colorscheme.syntaxError = '#9fd1c9'           -- palette 9
--------------testing---------------------------------------------------
+----------------------------------------------------------------
 
--- functions color when we are using it example println
+-- functions color when we are declaring it example println
 colorscheme.syntaxFunction = '#6cb8d6' -- palette 14
---
+-----------------------------------------------------------
 
 
 colorscheme.warningText = '#e1c65e' -- palette 11
@@ -81,7 +81,6 @@ colorscheme.warningText = '#e1c65e' -- palette 11
 
 -- kewords --
 colorscheme.syntaxKeyword = '#ad95b8' -- palette 5 (softer alternative)
-
 --
 
 
@@ -91,12 +90,12 @@ colorscheme.linkText = '#83a5d6' -- close to palette 12
 
 -- color for strings like inside of print--
 colorscheme.stringText = '#e1c65e' -- palette 11 (less harsh, still distinct)
---
+----------------------------------------------------------------------------------
 
 
 -- curlybraces color {} --
-colorscheme.warningEmphasis = '#bc99d4'
---
+colorscheme.warningEmphasis = '#5c6370'
+-------------------------------------------
 
 -- was: '#22863a' (not from palette)
 colorscheme.successText = '#bcc95f'    -- palette 10 (fitting olive green)
