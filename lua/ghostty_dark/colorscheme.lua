@@ -72,7 +72,7 @@ colorscheme.syntaxError = '#9fd1c9'           -- palette 9
 ----------------------------------------------------------------
 
 -- functions color when we are declaring it example println
-colorscheme.syntaxFunction = '#6cb8d6' -- palette 14
+colorscheme.syntaxFunction = '#a15c5b' -- palette 14
 -----------------------------------------------------------
 
 
