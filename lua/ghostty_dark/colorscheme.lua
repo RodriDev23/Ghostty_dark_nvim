@@ -99,9 +99,9 @@ colorscheme.successText = '#bcc95f'    -- palette 10 (fitting olive green)
 
 
 
-
-colorscheme.errorText = '#bf6b69'      -- palette 1
-
+--------testing this if this are the variables color like fn let use ---
+colorscheme.errorText = '#888888'      -- palette 1
+------------------------------------------
 
 -- was: '#800080' (harsh pure purple)
 colorscheme.specialKeyword = '#ad95b8' -- same as above, unify purples
