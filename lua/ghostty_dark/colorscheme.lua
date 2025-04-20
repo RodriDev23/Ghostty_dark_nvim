@@ -65,8 +65,8 @@ colorscheme.emphasizedBorder = '#292c33'      -- background
 colorscheme.syntaxError = '#c55757'           -- palette 9
 
 
--- functions color
-colorscheme.syntaxFunction = '#a3a7a8' --
+-- functions color when we are using it example println
+colorscheme.syntaxFunction = '#83beb1' -- palette 14
 --
 
 
