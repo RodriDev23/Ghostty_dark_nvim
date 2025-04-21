@@ -10,7 +10,6 @@ function M.highlights()
     CmpItemMenu = { fg = colorscheme.mainText },
     CmpItemAbbrMatch = { fg = colorscheme.successText, bold = true },
     CmpItemAbbrMatchFuzzy = { fg = colorscheme.successText, bold = true },
-    CmpItemSel = { fg = '#1e1e1e', bg = '#8abeb7', bold = true }
 
 
     -- kind support
