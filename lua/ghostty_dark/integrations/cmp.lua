@@ -4,6 +4,13 @@ local M = {}
 
 function M.highlights()
     return {
+
+        -- testing new value if this work?
+        CmpItemSel = { bg = colorscheme.syntaxFunction, fg = colorscheme.mainText },
+        ----
+
+
+
         -- this is not
         CmpItemAbbr = { fg = colorscheme.mainText },
         -------------------------------------------------
@@ -48,7 +55,7 @@ function M.highlights()
         CmpItemKindInterface = { fg = colorscheme.stringText },
 
         -- testing if this work the color selected --
-        CmpItemKindColor = { fg = "#a15c5b" },
+        CmpItemKindColor = { fg = colorscheme.successText },
         -----------------------------------------------------
 
 
