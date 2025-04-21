@@ -17,7 +17,7 @@ function M.highlights()
         CmpItemAbbrDeprecated = { fg = colorscheme.mainText, strikethrough = true },
         -------------------------------------------------------------------------
 
-        -- testing if this selected color for cmp --
+        -- this is not --
         CmpItemKind = { fg = colorscheme.successText },
         ----------------------------------------------
 
@@ -27,6 +27,10 @@ function M.highlights()
 
         ----------------------------------------------
         CmpItemAbbrMatch = { fg = colorscheme.successText, bold = true },
+        ----------------------------------------------------------
+
+
+
 
         -- this is not  --
         CmpItemAbbrMatchFuzzy = { fg = colorscheme.syntaxFunction, bold = true },
@@ -53,7 +57,7 @@ function M.highlights()
         CmpItemKindInterface = { fg = colorscheme.stringText },
 
         -- testing if this work the color selected --
-        CmpItemKindColor = { fg = colorscheme.successText },
+        CmpItemKindColor = { fg = "#ffffff" },
         -----------------------------------------------------
 
 
