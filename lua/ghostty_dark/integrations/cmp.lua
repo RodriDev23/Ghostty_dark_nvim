@@ -9,7 +9,7 @@ function M.highlights()
     CmpItemKind = { fg = colorscheme.syntaxFunction },
     CmpItemMenu = { fg = colorscheme.mainText },
     CmpItemAbbrMatch = { fg = colorscheme.successText, bold = true },
-    CmpItemAbbrMatchFuzzy = { fg = colorscheme.successText, bold = true },
+    CmpItemAbbrMatchFuzzy = { fg = colorscheme.syntaxFunction, bold = true },
 
 
     -- kind support
