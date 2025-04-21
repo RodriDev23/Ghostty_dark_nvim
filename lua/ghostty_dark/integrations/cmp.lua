@@ -6,10 +6,8 @@ function M.highlights()
     return {
 
         -- testing new value if this work?
-        CmpItemSel = { bg = colorscheme.syntaxFunction, fg = colorscheme.mainText },
+        CmpItemSel = { bg = "#ffffff", fg = colorscheme.syntaxFunction },
         ----
-
-
 
         -- this is not
         CmpItemAbbr = { fg = colorscheme.mainText },
