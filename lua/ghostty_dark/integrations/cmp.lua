@@ -16,8 +16,9 @@ function M.highlights()
 
 
 
-
-        CmpItemKind = { fg = colorscheme.syntaxFunction },
+        -- testing if this selected color for cmp --
+        CmpItemKind = { fg = colorscheme.successText },
+        ----------------------------------------------
 
 
 
@@ -33,8 +34,8 @@ function M.highlights()
 
 
 
-        -- testing this item color selected --
-        CmpItemAbbrMatchFuzzy = { fg = colorscheme.successText, bold = true },
+        -- this is not  --
+        CmpItemAbbrMatchFuzzy = { fg = colorscheme.syntaxFunction, bold = true },
         ------------------------------
 
 
