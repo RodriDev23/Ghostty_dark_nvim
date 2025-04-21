@@ -4,8 +4,6 @@ local M = {}
 
 function M.highlights()
     return {
-
-
         -- this is not
         CmpItemAbbr = { fg = colorscheme.mainText },
         -------------------------------------------------
@@ -14,25 +12,16 @@ function M.highlights()
         CmpItemAbbrDeprecated = { fg = colorscheme.mainText, strikethrough = true },
         -------------------------------------------------------------------------
 
-
-
         -- testing if this selected color for cmp --
         CmpItemKind = { fg = colorscheme.successText },
         ----------------------------------------------
 
-
-
-
         -- this is not--
         CmpItemMenu = { fg = colorscheme.mainText },
+
+
         ----------------------------------------------
-
-
-
         CmpItemAbbrMatch = { fg = colorscheme.successText, bold = true },
-
-
-
 
         -- this is not  --
         CmpItemAbbrMatchFuzzy = { fg = colorscheme.syntaxFunction, bold = true },
@@ -57,7 +46,12 @@ function M.highlights()
         CmpItemKindVariable = { fg = colorscheme.syntaxError },
         CmpItemKindFile = { fg = colorscheme.linkText },
         CmpItemKindInterface = { fg = colorscheme.stringText },
-        CmpItemKindColor = { fg = colorscheme.syntaxError },
+
+        -- testing if this work the color selected --
+        CmpItemKindColor = { fg = colorscheme.successText },
+        -----------------------------------------------------
+
+
         CmpItemKindReference = { fg = colorscheme.syntaxError },
         CmpItemKindEnumMember = { fg = colorscheme.syntaxError },
         CmpItemKindStruct = { fg = colorscheme.syntaxFunction },
