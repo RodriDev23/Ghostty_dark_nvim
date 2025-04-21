@@ -1,8 +1,8 @@
-local bufferline = require 'my-theme.integrations.bufferline'
-local cmp = require 'my-theme.integrations.cmp'
-local colorscheme = require 'my-theme.colorscheme'
-local config = require 'my-theme.config'
-local utils = require 'my-theme.utils'
+local bufferline = require 'ghostty_dark.integrations.bufferline'
+local cmp = require 'ghostty_dark.integrations.cmp'
+local colorscheme = require 'ghostty_dark.colorscheme'
+local config = require 'ghostty_dark.config'
+local utils = require 'ghostty_dark.utils'
 local theme = {}
 
 local function set_terminal_colors()
