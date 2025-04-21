@@ -56,7 +56,7 @@ function M.highlights()
         CmpItemKindFile = { fg = colorscheme.linkText },
         CmpItemKindInterface = { fg = colorscheme.stringText },
 
-        -- testing if this work the color selected --
+        -- this is not working --
         CmpItemKindColor = { fg = "#ffffff" },
         -----------------------------------------------------
 

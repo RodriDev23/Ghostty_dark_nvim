@@ -1,5 +1,5 @@
 local bufferline = require 'ghostty_dark.integrations.bufferline'
-local cmp = require 'ghostty_dark.integrations.cmp'
+--local cmp = require 'ghostty_dark.integrations.cmp'
 local colorscheme = require 'ghostty_dark.colorscheme'
 local config = require 'ghostty_dark.config'
 local utils = require 'ghostty_dark.utils'
@@ -339,7 +339,7 @@ local function set_groups()
   }
 
   -- integrations
-  groups = vim.tbl_extend('force', groups, cmp.highlights())
+  --groups = vim.tbl_extend('force', groups, cmp.highlights())
 
   -- overrides
   groups = vim.tbl_extend(
