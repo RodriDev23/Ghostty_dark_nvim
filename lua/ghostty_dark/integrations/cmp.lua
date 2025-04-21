@@ -48,7 +48,7 @@ function M.highlights()
         CmpItemKindInterface = { fg = colorscheme.stringText },
 
         -- testing if this work the color selected --
-        CmpItemKindColor = { fg = colorscheme.successText },
+        CmpItemKindColor = { fg = "#a15c5b" },
         -----------------------------------------------------
 
 
