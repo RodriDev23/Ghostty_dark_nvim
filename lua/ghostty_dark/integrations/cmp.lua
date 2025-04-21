@@ -4,7 +4,9 @@ local M = {}
 
 function M.highlights()
   return {
-    CmpItemAbbr = { fg = colorscheme.mainText },
+
+    -- testing if this is the item selected in cmp
+    CmpItemAbbr = { fg = colorscheme.successText },
     CmpItemAbbrDeprecated = { fg = colorscheme.mainText, strikethrough = true },
     CmpItemKind = { fg = colorscheme.syntaxFunction },
     CmpItemMenu = { fg = colorscheme.mainText },
