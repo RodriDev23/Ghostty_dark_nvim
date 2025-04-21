@@ -22,14 +22,20 @@ function M.highlights()
 
 
 
-        -- testing this is the color for selected item
-        CmpItemMenu = { fg = colorscheme.successText },
+        -- this is not--
+        CmpItemMenu = { fg = colorscheme.mainText },
         ----------------------------------------------
 
 
 
         CmpItemAbbrMatch = { fg = colorscheme.successText, bold = true },
-        CmpItemAbbrMatchFuzzy = { fg = colorscheme.syntaxFunction, bold = true },
+
+
+
+
+        -- testing this item color selected --
+        CmpItemAbbrMatchFuzzy = { fg = colorscheme.successText, bold = true },
+        ------------------------------
 
 
         -- kind support
