@@ -3,6 +3,7 @@ local cmp = require 'ghostty_dark.integrations.cmp'
 local colorscheme = require 'ghostty_dark.colorscheme'
 local config = require 'ghostty_dark.config'
 local utils = require 'ghostty_dark.utils'
+local diagnostic = require 'ghostty_dark.integrations.diagnostic'
 local theme = {}
 
 local function set_terminal_colors()
