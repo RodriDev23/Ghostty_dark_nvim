@@ -42,7 +42,8 @@ function M.highlights()
 
 
 
-        -- testing solution
+        -- this works--
+        -- solution for cmp to see the item selected
         Pmenu = { fg = "#e0def4", bg = "#232136" },
         PmenuSel = { fg = "#191724", bg = "#ebbcba" },
         PmenuBorder = { fg = "#6e6a86", bg = "#232136" },
