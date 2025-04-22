@@ -3,42 +3,43 @@ local colorscheme = require 'ghostty_dark.colorscheme'
 local M = {}
 
 function M.highlights()
-  return {
-    CmpItemAbbr = { fg = colorscheme.mainText },
-    CmpItemAbbrDeprecated = { fg = colorscheme.mainText, strikethrough = true },
-    CmpItemKind = { fg = colorscheme.syntaxFunction },
-    CmpItemMenu = { fg = colorscheme.mainText },
-    CmpItemAbbrMatch = { fg = colorscheme.successText, bold = true },
-    CmpItemAbbrMatchFuzzy = { fg = colorscheme.successText, bold = true },
+    return {
+        CmpItemAbbr = { fg = "#e0def4" },                                 -- main text
+        CmpItemAbbrDeprecated = { fg = "#6e6a86", strikethrough = true }, -- soft gray
+        CmpItemKind = { fg = "#c4a7e7" },                                 -- function-like (syntaxFunction)
+        CmpItemMenu = { fg = "#e0def4" },
 
-    -- kind support
-    CmpItemKindSnippet = { fg = colorscheme.stringText },
-    CmpItemKindKeyword = { fg = colorscheme.syntaxError },
-    CmpItemKindText = { fg = colorscheme.warningEmphasis },
-    CmpItemKindMethod = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindConstructor = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindFunction = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindFolder = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindModule = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindConstant = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindField = { fg = colorscheme.syntaxKeyword },
-    CmpItemKindProperty = { fg = colorscheme.successText },
-    CmpItemKindEnum = { fg = colorscheme.successText },
-    CmpItemKindUnit = { fg = colorscheme.successText },
-    CmpItemKindClass = { fg = colorscheme.warningText },
-    CmpItemKindVariable = { fg = colorscheme.syntaxError },
-    CmpItemKindFile = { fg = colorscheme.linkText },
-    CmpItemKindInterface = { fg = colorscheme.stringText },
-    CmpItemKindColor = { fg = colorscheme.syntaxError },
-    CmpItemKindReference = { fg = colorscheme.syntaxError },
-    CmpItemKindEnumMember = { fg = colorscheme.syntaxError },
-    CmpItemKindStruct = { fg = colorscheme.syntaxFunction },
-    CmpItemKindValue = { fg = colorscheme.warningEmphasis },
-    CmpItemKindEvent = { fg = colorscheme.syntaxFunction },
-    CmpItemKindOperator = { fg = colorscheme.syntaxError },
-    CmpItemKindTypeParameter = { fg = colorscheme.syntaxError },
-    CmpItemKindCopilot = { fg = colorscheme.linkText },
-  }
+        CmpItemAbbrMatch = { fg = "#6e6a86", bold = true }, -- gray highlight
+        CmpItemAbbrMatchFuzzy = { fg = "#6e6a86", bold = true },
+
+        -- kind support
+        CmpItemKindSnippet = { fg = "#f6c177" }, -- stringText (golden)
+        CmpItemKindKeyword = { fg = "#eb6f92" },
+        CmpItemKindText = { fg = "#f6c177" },
+        CmpItemKindMethod = { fg = "#c4a7e7" },
+        CmpItemKindConstructor = { fg = "#c4a7e7" },
+        CmpItemKindFunction = { fg = "#c4a7e7" },
+        CmpItemKindFolder = { fg = "#c4a7e7" },
+        CmpItemKindModule = { fg = "#c4a7e7" },
+        CmpItemKindConstant = { fg = "#c4a7e7" },
+        CmpItemKindField = { fg = "#c4a7e7" },
+        CmpItemKindProperty = { fg = "#9ccfd8" },
+        CmpItemKindEnum = { fg = "#9ccfd8" },
+        CmpItemKindUnit = { fg = "#9ccfd8" },
+        CmpItemKindClass = { fg = "#f6c177" },
+        CmpItemKindVariable = { fg = "#eb6f92" },
+        CmpItemKindFile = { fg = "#31748f" },
+        CmpItemKindInterface = { fg = "#f6c177" },
+        CmpItemKindColor = { fg = "#eb6f92" },
+        CmpItemKindReference = { fg = "#eb6f92" },
+        CmpItemKindEnumMember = { fg = "#eb6f92" },
+        CmpItemKindStruct = { fg = "#c4a7e7" },
+        CmpItemKindValue = { fg = "#f6c177" },
+        CmpItemKindEvent = { fg = "#c4a7e7" },
+        CmpItemKindOperator = { fg = "#eb6f92" },
+        CmpItemKindTypeParameter = { fg = "#eb6f92" },
+        CmpItemKindCopilot = { fg = "#31748f" },
+    }
 end
 
 return M
