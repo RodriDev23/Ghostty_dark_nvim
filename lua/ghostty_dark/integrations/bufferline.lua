@@ -73,7 +73,7 @@ function M.highlights(config)
 
         -- testing if this sould be red instead of green
         error = { fg = "#FF0000", bg = bg },
-        error_visible = { fg = colorscheme.syntaxError, bg = bg },
+        error_visible = { fg = "#FF0000", bg = bg },
         error_selected = {
             fg = "#FF0000",
             bg = colorscheme.editorBackground,
@@ -85,8 +85,6 @@ function M.highlights(config)
             fg = "#FF0000",
             bg = colorscheme.editorBackground,
         },
-
-
         ----------------------------------------------------
 
         warning = { fg = colorscheme.warningEmphasis, bg = bg },
