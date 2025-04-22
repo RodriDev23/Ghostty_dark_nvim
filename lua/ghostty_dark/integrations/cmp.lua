@@ -39,6 +39,13 @@ function M.highlights()
         CmpItemKindOperator = { fg = "#eb6f92" },
         CmpItemKindTypeParameter = { fg = "#eb6f92" },
         CmpItemKindCopilot = { fg = "#31748f" },
+
+
+
+        -- testing solution
+        Pmenu = { fg = "#e0def4", bg = "#232136" },
+        PmenuSel = { fg = "#191724", bg = "#ebbcba" },
+        PmenuBorder = { fg = "#6e6a86", bg = "#232136" },
     }
 end
 
