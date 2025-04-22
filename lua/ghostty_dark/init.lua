@@ -3,7 +3,6 @@ local cmp = require 'ghostty_dark.integrations.cmp'
 local colorscheme = require 'ghostty_dark.colorscheme'
 local config = require 'ghostty_dark.config'
 local utils = require 'ghostty_dark.utils'
-local diagnostic = require 'ghostty_dark.integrations.diagnostic'
 local theme = {}
 
 local function set_terminal_colors()
@@ -194,7 +193,7 @@ local function set_groups()
     -- LspCodeLensSeparator = {},
     -- LspSignatureActiveParameter = {},
 
-    DiagnosticError = { link = 'Error' },
+    DiagnosticError = { fg = "#FF0000"  },
     DiagnosticWarn = { link = 'WarningMsg' },
     DiagnosticInfo = { fg = colorscheme.syntaxFunction },
     DiagnosticHint = { fg = colorscheme.warningEmphasis },
@@ -340,7 +339,7 @@ local function set_groups()
   }
 
   -- integrations
-  groups = vim.tbl_extend('force', groups, cmp.highlights(), diagnostic.highlights())
+  groups = vim.tbl_extend('force', groups, cmp.highlights())
 
   -- overrides
   groups = vim.tbl_extend(
