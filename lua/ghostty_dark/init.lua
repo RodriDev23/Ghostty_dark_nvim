@@ -381,7 +381,7 @@ function theme.colorscheme()
 
   vim.g.VM_theme_set_by_colorscheme = true
   vim.o.termguicolors = true
-  vim.g.colors_name = 'my-theme'
+  vim.g.colors_name = 'ghostty_dark'
 
   set_terminal_colors()
   set_groups()
