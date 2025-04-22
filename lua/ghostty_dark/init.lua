@@ -339,7 +339,7 @@ local function set_groups()
   }
 
   -- integrations
-  groups = vim.tbl_extend('force', groups, cmp.highlights())
+  groups = vim.tbl_extend('force', groups, cmp.highlights(), diagnostic.highlights())
 
   -- overrides
   groups = vim.tbl_extend(
