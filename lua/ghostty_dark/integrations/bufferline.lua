@@ -30,7 +30,7 @@ function M.highlights(config)
 
         tab = { fg = white_color, bg = bg },
         tab_selected = {
-            fg = colorscheme.mainText,
+            fg = white_color,
             bg = colorscheme.editorBackground,
         },
         tab_close = { fg = colorscheme.syntaxError, bg = bg },
@@ -40,16 +40,16 @@ function M.highlights(config)
             bold = true,
         },
 
-        separator = { fg = colorscheme.editorBackground, bg = bg },
+        separator = { fg = white_color, bg = bg },
         separator_selected = {
-            fg = colorscheme.editorBackground,
+            fg = white_color,
             bg = colorscheme.editorBackground,
         },
-        separator_visible = { fg = colorscheme.editorBackground, bg = bg },
-        offset_separator = { fg = colorscheme.editorBackground, bg = bg },
-        tab_separator = { fg = colorscheme.editorBackground, bg = bg },
+        separator_visible = { fg = white_color, bg = bg },
+        offset_separator = { fg = white_color, bg = bg },
+        tab_separator = { fg = white_color, bg = bg },
         tab_separator_selected = {
-            fg = colorscheme.editorBackground,
+            fg = white_color,
             bg = colorscheme.editorBackground,
         },
 
