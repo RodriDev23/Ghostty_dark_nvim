@@ -360,16 +360,16 @@ local function set_groups()
   end
 end
 
---function theme.setup(values)
---  setmetatable(
---    config,
---    { __index = vim.tbl_extend('force', config.defaults, values) }
---  )
---
---  theme.bufferline = { highlights = {} }
---  theme.bufferline.highlights = bufferline.highlights(config)
---end
---
+function theme.setup(values)
+  setmetatable(
+    config,
+    { __index = vim.tbl_extend('force', config.defaults, values) }
+  )
+
+  theme.bufferline = { highlights = {} }
+  theme.bufferline.highlights = bufferline.highlights(config)
+end
+
 function theme.colorscheme()
   if vim.version().minor < 8 then
     vim.notify(
