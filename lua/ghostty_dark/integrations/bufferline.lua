@@ -54,7 +54,7 @@ function M.highlights(config)
         },
 
         close_button = { fg = colorscheme.lineNumberText, bg = bg },
-        close_button_visible = { fg = colorscheme.syntaxError, bg = bg },
+        close_button_visible = { fg = white_color, bg = bg },
         close_button_selected = {
             fg = colorscheme.syntaxError,
             bg = colorscheme.editorBackground,
@@ -62,10 +62,10 @@ function M.highlights(config)
 
         fill = { bg = bg },
 
-        numbers = { fg = colorscheme.lineNumberText, bg = bg },
-        numbers_visible = { fg = colorscheme.lineNumberText, bg = bg },
+        numbers = { fg = white_color, bg = bg },
+        numbers_visible = { fg = white_color, bg = bg },
         numbers_selected = {
-            fg = colorscheme.mainText,
+            fg = white_color,
             bg = colorscheme.editorBackground,
             italic = config.italics.bufferline or false,
         },
@@ -140,7 +140,7 @@ function M.highlights(config)
 
         modified = { fg = white_color, bg = bg },
         modified_selected = {
-            fg = colorscheme.warningText,
+            fg = white_color,
             bg = colorscheme.editorBackground,
         },
     }
