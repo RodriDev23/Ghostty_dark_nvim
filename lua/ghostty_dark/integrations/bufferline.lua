@@ -4,20 +4,21 @@ local M = {}
 
 function M.highlights(config)
     local bg = config.transparent and 'NONE' or colorscheme.sidebarBackground
+    local white_color = "#FFFFFF"
     return {
         background = { bg = bg },
-        buffer_visible = { fg = "#ffffff", bg = bg },
+        buffer_visible = { fg = white_color, bg = bg },
         buffer_selected = {
-            fg = colorscheme.mainText,
+            fg = white_color,
             bg = colorscheme.editorBackground,
         },
         duplicate = {
-            fg = colorscheme.mainText,
+            fg = white_color,
             bg = bg,
             italic = config.italics.bufferline or false,
         },
         duplicate_visible = {
-            fg = colorscheme.mainText,
+            fg = white_color,
             bg = bg,
             italic = config.italics.bufferline or false,
         },
@@ -27,7 +28,7 @@ function M.highlights(config)
             italic = config.italics.bufferline or false,
         },
 
-        tab = { fg = colorscheme.mainText, bg = bg },
+        tab = { fg = white_color, bg = bg },
         tab_selected = {
             fg = colorscheme.mainText,
             bg = colorscheme.editorBackground,
