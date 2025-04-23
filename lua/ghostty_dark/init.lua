@@ -26,6 +26,7 @@ local function set_terminal_colors()
   vim.g.terminal_color_foreground = colorscheme.mainText
 end
 
+
 local function set_groups()
   local bg = config.transparent and 'NONE' or colorscheme.editorBackground
   local diff_add =
@@ -193,8 +194,13 @@ local function set_groups()
     -- LspCodeLensSeparator = {},
     -- LspSignatureActiveParameter = {},
 
+    -- Diagnostic colors if we have an error and warning
     DiagnosticError = { fg = "#FF0000"  },
     DiagnosticWarn = { link = 'WarningMsg' },
+    ---------------------------------------
+
+
+
     DiagnosticInfo = { fg = colorscheme.syntaxFunction },
     DiagnosticHint = { fg = colorscheme.warningEmphasis },
     DiagnosticVirtualTextError = { link = 'DiagnosticError' },
@@ -354,16 +360,16 @@ local function set_groups()
   end
 end
 
-function theme.setup(values)
-  setmetatable(
-    config,
-    { __index = vim.tbl_extend('force', config.defaults, values) }
-  )
-
-  theme.bufferline = { highlights = {} }
-  theme.bufferline.highlights = bufferline.highlights(config)
-end
-
+--function theme.setup(values)
+--  setmetatable(
+--    config,
+--    { __index = vim.tbl_extend('force', config.defaults, values) }
+--  )
+--
+--  theme.bufferline = { highlights = {} }
+--  theme.bufferline.highlights = bufferline.highlights(config)
+--end
+--
 function theme.colorscheme()
   if vim.version().minor < 8 then
     vim.notify(
