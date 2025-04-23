@@ -102,14 +102,14 @@ function M.highlights(config)
             bg = colorscheme.editorBackground,
         },
 
-        info = { fg = colorscheme.syntaxFunction, bg = bg },
-        info_visible = { fg = colorscheme.syntaxFunction, bg = bg },
+        info = { fg = white_color, bg = bg },
+        info_visible = { fg = white_color, bg = bg },
         info_selected = {
-            fg = colorscheme.syntaxFunction,
+            fg = white_color,
             bg = colorscheme.editorBackground,
             italic = config.italics.bufferline or false,
         },
-        info_diagnostic = { fg = colorscheme.syntaxFunction, bg = bg },
+        info_diagnostic = { fg = white_color, bg = bg },
         info_diagnostic_visible = { fg = colorscheme.syntaxFunction, bg = bg },
         info_diagnostic_selected = {
             fg = colorscheme.syntaxFunction,
@@ -130,15 +130,15 @@ function M.highlights(config)
             bg = colorscheme.editorBackground,
         },
 
-        diagnostic = { fg = colorscheme.lineNumberText, bg = bg },
+        diagnostic = { fg = white_color, bg = bg },
         diagnostic_visible = { fg = colorscheme.lineNumberText, bg = bg },
         diagnostic_selected = {
-            fg = colorscheme.lineNumberText,
+            fg = white_color,
             bg = colorscheme.editorBackground,
             italic = config.italics.bufferline or false,
         },
 
-        modified = { fg = colorscheme.warningText, bg = bg },
+        modified = { fg = white_color, bg = bg },
         modified_selected = {
             fg = colorscheme.warningText,
             bg = colorscheme.editorBackground,
