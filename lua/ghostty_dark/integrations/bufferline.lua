@@ -6,7 +6,7 @@ function M.highlights(config)
     local bg = config.transparent and 'NONE' or colorscheme.sidebarBackground
     return {
         background = { bg = bg },
-        buffer_visible = { fg = colorscheme.lineNumberText, bg = bg },
+        buffer_visible = { fg = "#ffffff", bg = bg },
         buffer_selected = {
             fg = colorscheme.mainText,
             bg = colorscheme.editorBackground,
